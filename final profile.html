@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  float: left;
+   text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 1px 10px;
+}
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.div1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="card">
+  <img src="final1.jpg" alt="image" style="width:100%">
+  <div class="container">
+    <h3><b><span style="color:blue">Pranay</span><span style="color:grey"> Shukla</span></b></h3> 
+    <span style="color:black">Software Engineer</span>  </div>
+</div>
+<div class="div1">
+<form>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Title:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select>
+  <option value="Mr.">Mr.</option>
+  <option value="Mrs.">Mrs.</option>
+  <option value="Dr.">Dr.</option>
+  <option value="Er.">Er.</option>
+</select><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp First name: <input type="text" name="First name" value="Please enter your first name" required><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Last name: <input type="text" name="Last name" value="Please enter your last name" required><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Email: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="Email" value="Please enter your email" required><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Gender: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="radio" name="gender" value="male" checked> Male
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="radio" name="gender" value="female"> Female<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp DOB: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="Please enter your date of birth" required><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Department:
+  &nbsp&nbsp&nbsp&nbsp <input type="checkbox" name="department" value="Tech.">Technical <br>
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="checkbox" name="department" value="Non-Tech." checked>Non-Technical<br>
+
+<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Status:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="Please enter your current status" required><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Location:&nbsp&nbsp&nbsp<input type="text" name="Please enter your location" required><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Nationality<input type="text" name="Please enter your nationality" required><br>
+
+</form>
+</div>
+</body>
+</html> 
